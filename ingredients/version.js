@@ -75,7 +75,7 @@ var buildTask = function(src, buildDir) {
  * @return {string}
  */
 var getBuildDir = function(buildDir) {
-    return buildDir ? buildDir + '/build' : 'public/build';
+    return buildDir ? buildDir : 'public/build';
 };
 
 
